@@ -11,7 +11,7 @@ const bookSchema = new Schema({
       required: true
    },
    price: {
-      type: Int16Array,
+      type: String,
       required: true
    },
    published: {
