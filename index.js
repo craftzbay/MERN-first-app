@@ -9,7 +9,7 @@ app.use(express.json());
 
 // routes
 app.get('/', (req, res) => {
-   res.send('Hello from MERN app')
+   res.send('<h1>Hello from MERN app</h1>')
 })
 
 app.listen(PORT, () => {
