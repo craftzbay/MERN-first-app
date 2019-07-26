@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Bayarsaikhan3033/MERN-first-app/issues"
   },
-  "homepage": "https://github.com/Bayarsaikhan3033/MERN-first-app#readme"
+  "homepage": "https://github.com/Bayarsaikhan3033/MERN-first-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.6"
+  }
 }
