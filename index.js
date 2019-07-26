@@ -1,13 +1,19 @@
 const express = require('express');
 const app = express();
 
+const routes = require('./routes')
 const PORT = process.env.PORT || 5000;
+
+// require db connection
+require('./models');
 
 // configure body parser for AJAX requests
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+
 // routes
+app.use(routes)
 app.get('/', (req, res) => {
    res.send('<h1>Hello from MERN app</h1>')
 })
